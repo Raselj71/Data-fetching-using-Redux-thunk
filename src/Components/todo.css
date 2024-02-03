@@ -1,0 +1,18 @@
+article{
+    height: 200px;
+    width: 300px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    
+}
+
+section{
+    display: grid;
+     grid-template-columns:  auto auto auto;
+     flex-grow: 1;
+    gap: 5px;
+}
